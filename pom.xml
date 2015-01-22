@@ -19,6 +19,7 @@
 
     <build>
 
+        <!-- Needed to compile task -->
         <sourceDirectory>src/main/groovy</sourceDirectory>
 
         <plugins>

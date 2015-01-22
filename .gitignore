@@ -1,6 +1,7 @@
 *.iml
 .idea
 .gradle
+gradle
 build
 target
 gradle.properties
