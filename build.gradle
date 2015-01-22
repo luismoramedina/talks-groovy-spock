@@ -1,0 +1,11 @@
+apply plugin: 'groovy'
+
+repositories {
+    mavenCentral()
+}
+
+def groovyVersion = '2.3.6'
+
+dependencies {
+    compile "org.codehaus.groovy:groovy:$groovyVersion"
+}
