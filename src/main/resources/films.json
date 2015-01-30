@@ -1,0 +1,64 @@
+[
+  {
+    "id": 1,
+    "name": "Blade runner",
+    "plot": "bla bla bla de runner",
+    "Director": "Ridley Scott",
+    "Stars": [
+      "Harrison Ford",
+      "Rutger Hauer",
+      "Sean Young",
+      "Edward James Olmos"
+    ],
+    "Rating": 10
+  },
+  {
+    "id": 2,
+    "name": "The Dark Knight",
+    "plot": "bat bat bat bat...",
+    "Director": "Christopher Nolan",
+    "Stars": [
+      "Christian Bale",
+      "Heath Ledger",
+      "Aaron Eckhart",
+      "Michael Caine"
+    ],
+    "Rating": 9
+  },
+  {
+    "id": 6,
+    "name": "Fight club",
+    "plot": "fight fight fight boom!",
+    "Director": "David Fincher",
+    "Stars": [
+      "Brad Pitt",
+      "Edward Norton",
+      "Helena Bonham Carter",
+      "Meat Loaf"
+    ],
+    "Rating": 9
+  },
+  {
+    "id": 2555,
+    "name": "Inception",
+    "plot": "WTF!",
+    "Director": "Christopher Nolan",
+    "Stars": [
+      "Leonardo Dicaprio"
+    ],
+    "Rating": 9
+  },
+  {
+    "id": 2555,
+    "name": "Batman Begins",
+    "plot": "little bat",
+    "Director": "Christopher Nolan",
+    "Stars": [
+      "Christian Bale",
+      "Michael Caine",
+      "Ken Watanabe",
+      "Liam Neeson"
+    ],
+    "Rating": 9
+  }
+]
