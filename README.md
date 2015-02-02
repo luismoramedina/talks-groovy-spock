@@ -2,17 +2,16 @@ talks-groovy-spock
 ==================
 
 Run script:
-groovy src\main\groovy\hello.groovy
+groovy src\main\groovy\test-runner.groovy
 
 Instrucciones
 -------------
 
-Se parte de un fichero films.json cuyo contenido es una base de datos con peliculas.
+Se parte de un fichero films.json cuyo contenido es una base de datos con peliculas. El script test-runner.groovy invoca a la implementaci贸n del servicio FilmServices, se debe completar la l贸gica de este servicio para que satisfaga los asertos del script.
 
 1. Carga del fichero y obtencion de un listado de beans (10 minutos)
-2. Implementaci髇 del getFilmById (5 minutos)
-3. Implementaci髇 del getFilmsByDirector (5 minutos)
-4. Implementaci髇 del getFilmsByStar (5 minutos)
-5. Implementaci髇 del getFilmsByRanking (5 minutos)
-6. Implementaci髇 del getAllFilms (5 minutos)
-
+2. Implementaci贸n del getFilmById (5 minutos)
+3. Implementaci贸n del getFilmsByDirector (5 minutos)
+4. Implementaci贸n del getFilmsByStar (5 minutos)
+5. Implementaci贸n del getFilmsByRanking (5 minutos)
+6. Implementaci贸n del getAllFilms (5 minutos)
