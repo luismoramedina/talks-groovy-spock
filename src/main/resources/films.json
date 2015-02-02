@@ -41,7 +41,7 @@
   {
     "id": 2555,
     "name": "Inception",
-    "plot": "WTF!",
+    "plot": "this is a fucking russian doll",
     "director": "Christopher Nolan",
     "stars": [
       "Leonardo Dicaprio"
@@ -49,7 +49,7 @@
     "rating": 9
   },
   {
-    "id": 2555,
+    "id": 2556,
     "name": "Batman Begins",
     "plot": "little bat",
     "director": "Christopher Nolan",
@@ -59,6 +59,6 @@
       "Ken Watanabe",
       "Liam Neeson"
     ],
-    "rating": 9
+    "rating": 7
   }
 ]
