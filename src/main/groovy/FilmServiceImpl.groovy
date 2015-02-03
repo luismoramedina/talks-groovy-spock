@@ -12,10 +12,10 @@ class FilmServiceImpl {
 //        def url = 'https://raw.githubusercontent.com/luismoramedina/talks-groovy-spock/master/src/main/resources/films.json'
 //        print url.toURL().text
 
-        def stream = this.class.getResourceAsStream("films.json")
+        def jsonText = this.class.getResourceAsStream("films.json").getText()
 
         JsonSlurper slurper = new JsonSlurper()
-        def jsonData = slurper.parse(stream)
+        def jsonData = slurper.parseText(jsonText)
 
         jsonData.each() {
             film ->
