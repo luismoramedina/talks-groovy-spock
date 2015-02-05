@@ -1,0 +1,30 @@
+FilmServiceImpl() {
+//      From url
+//        def url = 'https://raw.githubusercontent.com/luismoramedina/talks-groovy-spock/master/src/main/resources/films.json'
+//        print url.toURL().text
+
+    def jsonText = this.class.getResourceAsStream("films.json").getText()
+
+    JsonSlurper slurper = new JsonSlurper()
+    def jsonData = slurper.parseText(jsonText)
+
+    jsonData.each() {
+        film ->
+            films.put(film.id, new Film(film))
+    }
+
+    films.each { println it.value.toString() }
+    println "All films loaded"
+}
+
+....
+
+@ToString
+public class Film {
+    Integer id
+    String name
+    String plot
+    String director
+    List<String> stars
+    Integer rating
+}

@@ -1,0 +1,12 @@
+List<Film> getFilmsByRanking(Integer rating, boolean equalOrGreater = false, boolean equalOrLesser = false) {
+    if (equalOrGreater && equalOrLesser) {
+        throw new IllegalArgumentException()
+    }
+    def range = equalOrLesser ? 0..rating : rating
+    range = equalOrGreater ? rating..10 : range
+    return films.findAll {
+        it.getValue().rating in range
+    }.collect {
+        it.value
+    } as List<Film>
+}

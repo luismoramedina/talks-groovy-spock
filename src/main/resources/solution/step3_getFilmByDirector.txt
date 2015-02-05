@@ -1,0 +1,7 @@
+List<Film> getFilmsByDirector(Object director) {
+    return films.findAll {
+        it.value.director == director
+    }.collect {
+        it.value
+    } as List<Film>
+}

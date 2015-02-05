@@ -1,0 +1,7 @@
+List<Film> getFilmsByStar(Object star) {
+    return films.findAll {
+        star in it.getValue().stars
+    }.collect {
+        it.value
+    } as List<Film>
+}

@@ -1,0 +1,3 @@
+Film getFilm(Integer id) {
+    films[id]
+}

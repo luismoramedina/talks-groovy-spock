@@ -28,7 +28,7 @@ class FilmServiceImpl {
 
     List<Film> getFilmsByDirector(Object director) {
         return films.findAll {
-            it.getValue().director == director
+            it.value.director == director
         }.collect {
             it.value
         } as List<Film>
@@ -56,7 +56,7 @@ class FilmServiceImpl {
     }
 
     Film getFilm(Integer id) {
-        return films.get(id)
+        films[id]
     }
 
 }
