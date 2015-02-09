@@ -1,3 +1,6 @@
+import groovy.json.JsonSlurper
+//http://groovy.codehaus.org/gapi/groovy/json/JsonSlurper.html
+
 /**
  * @author luis mora
  */
@@ -5,6 +8,7 @@ class FilmServiceImpl {
     def films = [:]
 
     FilmServiceImpl() {
+        def slurper = new JsonSlurper()
         //TODO load data...
         println "All films loaded"
     }
