@@ -6,7 +6,7 @@
     <groupId>org.groovy.talks</groupId>
     <artifactId>talks-groovy-spock</artifactId>
     <version>0.1-beta</version>
-
+    <packaging>war</packaging>
 
     <dependencies>
         <!-- groovy -->
@@ -20,13 +20,22 @@
             <groupId>org.spockframework</groupId>
             <artifactId>spock-maven</artifactId>
             <version>0.7-groovy-2.0</version>
+            <scope>test</scope>
         </dependency>
+
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>3.1.0</version>
+        </dependency>
+
     </dependencies>
 
     <build>
 
-        <!-- Needed to compile task -->
+        <!-- Needed to compile task
         <sourceDirectory>src/main/groovy</sourceDirectory>
+        -->
 
         <plugins>
 
